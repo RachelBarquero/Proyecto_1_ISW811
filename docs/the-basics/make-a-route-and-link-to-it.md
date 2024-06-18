@@ -5,7 +5,7 @@
 * Cambio de archivo en /views/welcome.blade.php.
   * En este capítulo, se cambia el nombre del archivo "welcome.blade.php" a "posts.blade.php", el cual se encuentra en la 
   carpeta /views/.
-
+ 
 * Actualización en /routes/web.php.
   * Y en la parte de /routes/web.php cambiamos los siguiente:
   
@@ -84,7 +84,7 @@ font-family: sans-serif;
 p{
     line-height: 1.6;
 }
-```
+``` 
 * Modificamos el archivo posts.blade.php con un segundo posts:
 
 ```html
@@ -179,4 +179,41 @@ eso, encontraron a humanos usando sombreros de papel de aluminio para bloquear '
   Route::get('post', function () {
     return view ('post');
     });
+    ```
+```php
+* Despues de esto creamos un archivo en la carpeta resources el cual se llamará post.blade.php para poder rediriguir el "My firt post" ha otra ruta y agregamos lo siguiente:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="/app.css">
+    <title>My Blog</title>
+</head>
+<body>
+    <article>
+        <h1><a href="/post">Mi primer Post</a></h1>
+        
+        <P>
+Si los extraterrestres nos estuvieran observando desde el espacio, probablemente pensarían que los humanos
+ caminan a sus coches para viajar por la Tierra, cuando en realidad están yendo a una caja mágica que los 
+ lleva a otro lugar con solo presionar botones y girar un volante. xd
+</P>
+
+    </article>
+
+    <a href="/">Go back</a>
+</body>
+</html>
 ```
+
+* Las rutas se ven asi:
+
+![Vista Welcome](images/cap%2007.1.png)
+
+* Por ultimo la ruta del post:
+
+![Vista Welcome](images/cap%2007.2.png)
+
+

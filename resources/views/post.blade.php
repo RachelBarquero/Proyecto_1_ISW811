@@ -8,13 +8,8 @@
 </head>
 <body>
     <article>
-        <h1><a href="/post">Mi primer Post</a></h1>
         
-        <P>
-Si los extraterrestres nos estuvieran observando desde el espacio, probablemente pensarían que los humanos
- caminan a sus coches para viajar por la Tierra, cuando en realidad están yendo a una caja mágica que los 
- lleva a otro lugar con solo presionar botones y girar un volante. xd
-</P>
+    <?= $post; ?>
 
     </article>
 

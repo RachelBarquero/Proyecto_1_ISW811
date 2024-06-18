@@ -9,14 +9,14 @@
 </head>
 <body>
     <article>
-<h1><a href="/post">Mi primer Post</a><h1>
+<h1><a href="/posts/mi-primer-post">Mi primer Post</a><h1>
 <P>
 Si los extraterrestres nos estuvieran observando desde el espacio, probablemente pensarían que los humanos
  caminan a sus coches para viajar por la Tierra, cuando en realidad están yendo a una caja mágica que los 
  lleva a otro lugar con solo presionar botones y girar un volante. xd
 </P>
 
-<h1><a href="/post">Mi segundo Post</a><h1>
+<h1><a href="/posts/mi-segundo-post">Mi segundo Post</a><h1>
 <P>
 "Los extraterrestres aterrizaron en la Tierra esperando encontrar una civilización avanzada. En lugar de 
 eso, encontraron a humanos usando sombreros de papel de aluminio para bloquear 'señales alienígenas'.
@@ -24,7 +24,7 @@ eso, encontraron a humanos usando sombreros de papel de aluminio para bloquear '
  (o lo que sea que tengan). xd x2"
 </p>
 
- <h1><a href="/post">Mi tercer Post</a><h1>
+ <h1><a href="/posts/mi-tercer-post">Mi tercer Post</a><h1>
 
  <P>
  "Los extraterrestres llegaron a la Tierra con curiosidad. Al ver a los humanos bailando bajo 
