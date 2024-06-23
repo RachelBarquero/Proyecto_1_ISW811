@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('posts');
 });
 
+
 Route::get('posts/{post}', function ($slug) {
 
     $path = __DIR__ . "/../resources/posts/{$slug}.html";
@@ -31,8 +32,5 @@ Route::get('posts/{post}', function ($slug) {
     return view('post', [
         'post' => $post
     ]);
-});
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+})->whereAlpha('post', '[A-z_\-]+');
